@@ -60,7 +60,7 @@ img {
     border-radius: 0 10px 10px 0;
 }
 /**** media query****/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 428px) {
     main {
         display: flex;
         flex-direction: column-reverse;
