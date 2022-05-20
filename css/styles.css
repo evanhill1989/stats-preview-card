@@ -61,13 +61,6 @@ img {
 }
 /**** media query****/
 
-@media screen and (max-width: 1440px) {
-    main {
-        display: flex;
-        justify-content: center;
-        margin: 20%;
-}
-}
 @media screen and (max-width: 428px) {
     main {
         display: flex;
