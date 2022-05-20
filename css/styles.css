@@ -60,6 +60,14 @@ img {
     border-radius: 0 10px 10px 0;
 }
 /**** media query****/
+
+@media screen and (max-width: 1440px) {
+    main {
+        display: flex;
+        justify-content: center;
+        margin: 20%;
+}
+}
 @media screen and (max-width: 428px) {
     main {
         display: flex;
@@ -89,6 +97,7 @@ img {
     .stats {
         display: grid;
         grid-gap: 30px;
+        margin-bottom: 10%;
     }
     .stats p {
         font-size: 12px;
