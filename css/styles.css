@@ -6,6 +6,7 @@
 }
 body {
     background-color: hsl(233, 47%, 7%);
+    font-weight: 400;
 }
 main {
     display: flex;
@@ -16,7 +17,7 @@ main {
 #stat-container {
     display: flex;
     flex-direction: row;
-    max-width: 80vw;
+    width: 80vw;
 }
 .text {
     background-color: hsl(244, 38%, 16%);
