@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ main {
 #stat-container {
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 80%;
 }
 .text {
     background-color: hsl(244, 38%, 16%);
@@ -65,11 +66,8 @@ h3 {
     object-fit: fill;
     filter: opacity(0.5) drop-shadow(0 0 0 hsl(277, 64%, 61%));
 }
-
-
-
 /* * MEDIA QUERIES * */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 428px) {
     * {
         margin: 0;
         padding: 0;
@@ -82,8 +80,8 @@ h3 {
     #stat-container {
         display: flex;
         flex-direction: column-reverse;
-        margin: 20% 6%;
         background-color: hsl(244, 38%, 16%);
+        margin: 20% 10%;
         text-align: center;
         border-radius: 0 0 10px 10px;
     }
@@ -102,7 +100,6 @@ h3 {
     .heading p {
         font-family: 'Lexend Deca', sans-serif;
         font-size: 1.5rem;
-        padding: 6% 8%;
         color: hsla(0, 0%, 100%, 0.75)
     }
     .stats {
@@ -120,9 +117,9 @@ h3 {
         font-size: 1.5rem;
         color: hsla(0, 0%, 100%, 0.6)
     }
-    img {
-        min-width: 100%;
-        height: 250px;
+    .image img {
+        max-width: 100%;
+        height: 300px;
         object-fit: fill;
         border-radius: 10px 10px 0 0;
         filter: opacity(0.5) drop-shadow(0 0 0 hsl(277, 64%, 61%));
