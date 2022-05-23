@@ -15,7 +15,7 @@ body {
 }
 .container {
     display: flex;
-    max-width: 100rem;
+    max-width: 100em;
 }
 .text {
     background-color: hsl(244, 38%, 16%);
